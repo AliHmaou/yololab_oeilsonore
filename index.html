@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>L'Œil Sonore - Détecteur d'Objets</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- TensorFlow.js and COCO-SSD model -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+    <style>
+        body {
+            touch-action: manipulation;
+        }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-900">
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "name": "L'Œil Sonore - Détecteur d'Objets",
+  "description": "Une application de détection d'objets en temps réel utilisant la caméra de l'appareil et l'IA pour identifier des objets spécifiques et fournir un retour sonore et haptique. Conçue pour l'assistance à la navigation.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
